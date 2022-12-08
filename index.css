@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.linkedinlogo{
+    position: relative;
+}
+.topnavcontent svg{
+    height: 20px;
+    fill: rgba(0,0,0,0.5);
+}
+.topnavcontent{
+    margin: 0px 20px;
+    font-size: 18px;
+    
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding: -10px -10px;
+    align-items: center;
+}
+.navbarsecond{
+    width: 700px;
+    display: flex;
+    justify-content:left;
+    padding: 10px 20px;
+    align-items:center;
+}
+.verticleline{
+    width:2px;
+    height: 40px;
+    background-color: silver;
+}
+.buttonjs{
+    display: flex;
+    align-items: center;
+}
+.joinnowbutton{
+    background-color: transparent;
+    border: none;
+    margin-left: 15px;
+    font-size: 1.1rem;
+    padding: 5px 15px;
+    border-radius: 4px;
+    position: relative;
+    text-align: center;
+}
+.signinbutton{
+    background-color: transparent;
+    border: 1px solid #0a66c2;
+    color: #0a66c2;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 1.1rem;
+}
+.maincontent{
+     width: 1400px;
+     height: 550px;
+     padding: 10px 10px;
+     
+}
+.maintextleft{
+    width: 700px;
+    height: 550px;
+}
+h3{
+    font-size: 60px;
+    color: rgb(153,103,90);
+    padding: 20px;
+}
+.inputtype{
+    width: 400px;
+    height:50px;
+    margin:15px;
+}
+.maintextleft p{
+    margin: 15px;
+}
+.maintextleft a{
+    color: rgb(41,119,201);
+}
+.Agreebutton{
+    background-color:  rgb(41,119,201);
+    border: 1px solid #0a66c2;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 1.1rem;
+    margin:15px;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+}
+.maintextleft img{
+    box-sizing: border-box;
+    width:700px;
+    height:580px;
+    display: flex;
+    position:fixed;
+    top:200px;
+    right:110px;
+    padding: 10px 10px ;
+    margin-right: -30px;
+    margin-top: -90px;
+
+}
+.maintextleft .already{
+    margin:10px 30px;
+}
